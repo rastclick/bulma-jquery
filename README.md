@@ -23,9 +23,8 @@ npm i bulma-jquery
 require('bulma-jquery');
 ```
 
-## Examples
-
-You can see an example page in index.html.
+## Documentation & Demo
+You can find the Documentation and a demo [here](https://rastclick.github.io/bulma-jquery/)
 
 
 ## Contributing
