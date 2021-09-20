@@ -1,0 +1,20 @@
+{
+  "name": "bulma-jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/bulma-jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "jquery": ">=1.8",
+    "bulma": ">=0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rastclick/bulma-jquery.git"
+  },
+  "keywords": ["bulma", "jquery bulma", "jquery bulma", "jquery", "jquery-plugin", "ecosystem:jquery"],
+  "author": "Mahdi Rezaei",
+  "license": "MIT"
+}
