@@ -11,6 +11,55 @@
 
 <body>
   <div class="container">
+    <h2 class="title" id="notification">
+      <a href="#notification">
+        #
+      </a>
+      <span>Notification</span>
+    </h2>
+    <div class="notification">
+      <button class="delete"></button>
+      Lorem ipsum dolor sit amet, consectetur
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    </div>
+
+    <pre>
+        <code class="language-html">&lt;div class="notification"&gt;
+  &lt;button class="delete"&gt;&lt;/button&gt;
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+&lt;/div&gt;</code>
+      </pre>
+    <hr>
+    <h2 class="title" id="tabs">
+      <a href="#tabs">
+        #
+      </a>
+      <span>Tabs</span>
+    </h2>
+    <p>Add a custom class to each item In this example I added a <code>tab-content</code> class</p>
+    <pre>
+      <code class="language-html">&lt;div class="tabs"&gt;
+  &lt;ul&gt;
+    &lt;li class="is-active"&gt;&lt;a&gt;Pictures&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a&gt;Music&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a&gt;Videos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a&gt;Documents&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div class="tab-content is-block"&gt;Pictures Content&lt;/div&gt;
+  &lt;div class="tab-content"&gt;Music Content&lt;/div&gt;
+  &lt;div class="tab-content"&gt;Videos Content&lt;/div&gt;
+  &lt;div class="tab-content"&gt;Documents Content&lt;/div&gt;
+&lt;/div&gt;</code>
+    </pre>
+    <p>Now add the following code to your styles:</p>
+    <pre>
+      <code class="language-html">.tab-content {
+  display: none;
+}</code>
+    </pre>
+
     <div class="tabs">
       <ul>
         <li class="is-active"><a>Pictures</a></li>
@@ -30,10 +79,22 @@
     .tab-content {
       display: none;
     }
+
+    pre {
+      padding: 0 !important;
+      background-color: transparent !important;
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="./js/bulma-jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/css.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
 
 </html>
