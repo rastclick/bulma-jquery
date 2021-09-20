@@ -11,7 +11,7 @@ Bulma-jQuery is extension for the Bulma CSS framework that include all jquery co
 
 ## Installation
 
-Use the package manager [npm](https://pip.pypa.io/en/stable/) to install bulma-jquery.
+Use the package manager [npm](https://www.npmjs.com/) to install bulma-jquery.
 
 ```bash
 npm i bulma-jquery
